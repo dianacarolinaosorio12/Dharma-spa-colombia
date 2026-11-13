@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dharma Spa Colombia | Masajes y terapias a domicilio en Bogotá</title>
+  <meta name="description" content="Masajes y terapias a domicilio en Bogotá: relajante, deportiva, tailandesa, reflexología, energética, digitopresión, sueño profundo y cuatro manos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Símbolo reutilizable: rueda de Dharma (8 radios) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="dharma" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-width="3">
+      <circle cx="50" cy="50" r="45"/>
+      <circle cx="50" cy="50" r="31" stroke-width="2"/>
+      <circle cx="50" cy="50" r="8" fill="currentColor"/>
+      <g stroke-linecap="round">
+        <path d="M50 19V8M50 81v11M19 50H8M81 50h11M28 28l-8-8M72 72l8 8M72 28l8-8M28 72l-8 8"/>
+      </g>
+    </g>
+    <g fill="currentColor">
+      <circle cx="50" cy="5" r="3"/><circle cx="50" cy="95" r="3"/>
+      <circle cx="5" cy="50" r="3"/><circle cx="95" cy="50" r="3"/>
+      <circle cx="18" cy="18" r="3"/><circle cx="82" cy="82" r="3"/>
+      <circle cx="82" cy="18" r="3"/><circle cx="18" cy="82" r="3"/>
+    </g>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <a class="brand" href="#inicio" aria-label="Dharma Spa Colombia, ir al inicio">
+    <img class="brand-mark" src="img/logo.png" alt="" width="48" height="48">
+    <span>Dharma Spa</span>
+  </a>
+  <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">☰</button>
+  <nav id="nav" class="nav">
+    <a href="#servicios">Terapias</a>
+    <a href="#como-funciona">Cómo funciona</a>
+    <a href="#cobertura">Cobertura</a>
+    <a href="#preguntas">Preguntas</a>
+    <button class="btn btn-gold" data-open-booking>Agendar por WhatsApp</button>
+  </nav>
+</header>
+
+<main>
+  <section id="inicio" class="hero">
+    <svg class="hero-wheel" aria-hidden="true"><use href="#dharma"/></svg>
+    <div class="hero-inner">
+      <h1>El equilibrio y la experiencia de un spa de lujo en la comodidad de tu hogar u hotel en Bogotá</h1>
+      <p>Masajes y terapias con aceites esenciales y aromaterapia. Llegamos a donde estés.</p>
+      <div class="hero-actions">
+        <button class="btn btn-gold" data-open-booking>Agendar por WhatsApp</button>
+        <a class="btn btn-ghost" href="#servicios">Ver las 8 terapias</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="section">
+    <div class="wrap">
+      <h2>Elige tu terapia</h2>
+      <p class="lead">Cada sesión dura 60 o 90 minutos y puede ser individual o en pareja.</p>
+      <div id="servicesGrid" class="cards" aria-live="polite">
+        <p class="status">Cargando terapias…</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona" class="section section-dark">
+    <div class="wrap">
+      <h2>Cómo funciona el servicio a domicilio</h2>
+      <ol class="steps">
+        <li><h3>Elige tu terapia ideal</h3><p>Revisa las ocho opciones y escoge la que necesita tu cuerpo hoy.</p></li>
+        <li><h3>Solicita por la web y confirma por WhatsApp</h3><p>Llena el agendador y te abrimos el chat con tu mensaje listo.</p></li>
+        <li><h3>Tu terapeuta llega a ti</h3><p>A tu casa, hotel u oficina, con aceites esenciales y aromaterapia.</p></li>
+        <li><h3>Disfruta y paga con tranquilidad</h3><p>Aceptamos Nequi, Daviplata, Llave o efectivo.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="cobertura" class="section">
+    <div class="wrap two-col">
+      <div>
+        <h2>Cobertura y horarios en Bogotá</h2>
+        <p class="lead">Atendemos el norte de la ciudad y los principales hoteles.</p>
+        <ul class="chips">
+          <li>Norte</li><li>Chapinero</li><li>Usaquén</li><li>Suba</li>
+          <li>Teusaquillo</li><li>Salitre</li><li>Hoteles de la ciudad</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h3>Horarios flexibles</h3>
+        <p>Agenda a la hora que te quede mejor. En horario nocturno o en días festivos puede aplicar un recargo; te lo confirmamos por WhatsApp antes de la sesión.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="preguntas" class="section section-soft">
+    <div class="wrap narrow">
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq">
+        <details>
+          <summary>¿Qué necesito tener en mi casa?</summary>
+          <p>Solo un espacio despejado de 2 × 2 metros. Nosotros llevamos los aceites y la aromaterapia.</p>
+        </details>
+        <details>
+          <summary>¿Las terapeutas son profesionales y certificadas?</summary>
+          <p>Sí. Nuestro servicio es estrictamente terapéutico y profesional, con garantía de privacidad y seguridad para ti.</p>
+        </details>
+        <details>
+          <summary>¿Con cuánto tiempo debo agendar?</summary>
+          <p>Mientras más anticipación, más opciones de horario tendrás. Escríbenos por WhatsApp y te confirmamos la disponibilidad del día.</p>
+        </details>
+        <details>
+          <summary>¿Cómo pago?</summary>
+          <p>Con Nequi, Daviplata,  Llave o efectivo, al terminar tu sesión.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="#inicio"><img class="brand-mark" src="img/logo.png" alt="" width="48" height="48"><span>Dharma Spa Colombia</span></a>
+      <p>Masajes y terapias a domicilio en Bogotá.</p>
+    </div>
+    <div>
+      <h3>Contacto</h3>
+      <p><a href="https://wa.me/573238566031" target="_blank" rel="noopener">WhatsApp: +57 323 856 6031</a></p>
+      <p><a href="mailto:Dharmaspacolombia@gmail.com">Dharmaspacolombia@gmail.com</a></p>
+      <p><a href="https://www.facebook.com/search/top?q=Dharma%20spa%20colombia" target="_blank" rel="noopener">Facebook: Dharma spa colombia</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="wa-float" href="https://wa.me/573238566031" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.200 19.500L3 29l6.700-1.700A13 13 0 1 0 16 3z"/><path fill="#1c2a1a" d="M12 9.500c-.5 0-1.500.8-1.500 2.300 0 2.800 3.800 6.700 7.200 7.200 1.400.2 2.600-.9 2.600-1.800 0-.3-.1-.5-.4-.6l-2-1c-.3-.1-.6 0-.8.2l-.8 1c-1.400-.5-3-2.100-3.500-3.500l1-.8c.2-.2.300-.5.200-.8l-1-2c-.1-.3-.4-.4-.8-.4z"/></svg>
+</a>
+
+<!-- Modal de agendamiento -->
+<dialog id="bookingModal" class="modal" aria-labelledby="modalTitle">
+  <form id="bookingForm" method="dialog" novalidate>
+    <div class="modal-head">
+      <h2 id="modalTitle">Agenda tu terapia</h2>
+      <button type="button" class="modal-close" data-close aria-label="Cerrar">✕</button>
+    </div>
+
+    <label>Terapia
+      <select id="fService" required></select>
+    </label>
+
+    <fieldset>
+      <legend>Duración</legend>
+      <label class="pill"><input type="radio" name="duration" value="60" checked><span>60 min</span></label>
+      <label class="pill"><input type="radio" name="duration" value="90"><span>90 min</span></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Modalidad</legend>
+      <label class="pill"><input type="radio" name="modality" value="individual" checked><span>Individual</span></label>
+      <label class="pill"><input type="radio" name="modality" value="pareja"><span>En pareja</span></label>
+    </fieldset>
+
+    <label>Tu nombre
+      <input id="fName" type="text" autocomplete="given-name" required>
+    </label>
+    <label>Barrio o localidad en Bogotá
+      <input id="fNeighborhood" type="text" placeholder="Ej. Chicó, Usaquén" required>
+    </label>
+    <div class="row">
+      <label>Fecha<input id="fDate" type="date" required></label>
+      <label>Hora<input id="fTime" type="time" required></label>
+    </div>
+
+    <p id="formError" class="form-error" role="alert" hidden></p>
+    <p class="preview-label">Así se verá tu mensaje:</p>
+    <blockquote id="preview" class="preview"></blockquote>
+
+    <button type="submit" class="btn btn-gold btn-block">Enviar por WhatsApp</button>
+  </form>
+</dialog>
+
+<script src="js/config.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
